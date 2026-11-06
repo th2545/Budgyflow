@@ -1,5 +1,5 @@
 var CACHE_PREFIX = 'budgyflow-shell-';
-var CACHE_NAME = CACHE_PREFIX + 'v2';
+var CACHE_NAME = CACHE_PREFIX + 'v10';
 var APP_SHELL = [
   './',
   './index.html',

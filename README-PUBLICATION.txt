@@ -16,6 +16,18 @@ Contenu du dossier
 - legal.html                  Mentions légales à compléter impérativement
 - robots.txt                  Autorise l’indexation publique
 
+L’application comprend maintenant un onglet « Bons plans » : conseils généraux, recherches
+de lieux par ville/quartier sur Google Maps et liens vers des plateformes de réductions
+étudiantes. Les explications de chaque rubrique et de « À savoir » sont accessibles via
+l’astérisque placé à droite du titre. Les offres et prix ne sont pas récupérés en temps réel ;
+l’écran le précise.
+
+L’interface utilise une identité visuelle futuriste bleu nuit, cyan et violet, avec les
+polices Space Grotesk et DM Sans. La police web est chargée depuis Google Fonts ; une police
+système prend le relais si le service n’est pas accessible. Le thème Nuit néon est activé
+par défaut ; le thème choisi dans les réglages est enregistré localement pour les prochaines
+visites.
+
 Avant la mise en ligne
 ----------------------
 1. Compléter tous les champs [ENTRE CROCHETS] de legal.html avec les informations
@@ -23,7 +35,8 @@ Avant la mise en ligne
    hébergeur et URL publique.
 2. Relire privacy.html après avoir choisi l’hébergeur. Elle décrit le comportement
    actuel du code : budget conservé localement, pas de compte ni d’envoi automatique
-   du budget, Google Fonts chargé en ligne, et partage/export seulement sur demande.
+   du budget, polices DM Sans et Space Grotesk chargées en ligne, et partage/export seulement
+   sur demande.
 3. Vérifier les obligations légales applicables au pays et au statut de l’éditeur.
 4. Publier l’intégralité de ce dossier à la racine d’un hébergement de site statique.
    Ne pas publier uniquement index.html : les icônes, le manifeste et sw.js sont requis.
@@ -64,8 +77,8 @@ Exigences de publication
 Mise à jour
 -----------
 Téléverser de nouveau l’intégralité du dossier après toute modification. Pour publier une
-nouvelle version du cache hors ligne, incrémenter CACHE_NAME dans sw.js (par exemple v1 vers
-v2). Toujours tester l’application et ses pages légales après chaque déploiement.
+nouvelle version du cache hors ligne, incrémenter CACHE_NAME dans sw.js (par exemple v9 vers
+v10). Toujours tester l’application et ses pages légales après chaque déploiement.
 
 Ce dossier prépare une application web installable. Il ne contient pas les inscriptions
 nécessaires pour publier une application native dans l’App Store ou Google Play.
